@@ -6,6 +6,7 @@
 from math import *
 from decimal import *
 
+print("Enter Desiered Decimal Precision:")
 precision = input()
 
 getcontext().prec = int(precision)
